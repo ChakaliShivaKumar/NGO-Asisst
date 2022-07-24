@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" type="text/css" href="ngo.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            color:white;
+            text-align: center;
+            margin-top:0%;
+            letter-spacing:15px;
+        
+            
+        }
+        body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1;
+        }
+        .about{
+            background: url('/static/khan.jpg') no-repeat left;
+            background-size: 55%;
+            background-color: #fdfdfd;
+            overflow: hidden;
+            padding: 100px 0;
+        }
+        .inner-section{
+            width: 55%;
+            float: right;
+            background-color: #d39393;
+            padding: 140px;
+            box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+        }
+        .inner-section h1{
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .text{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: white;
+            line-height:20px;
+            text-align: justify;
+            margin-bottom: 40px;
+            
+        }
+        
+        @media screen and (max-width:1200px){
+            .inner-section{
+                padding: 80px;
+            }
+        }
+        @media screen and (max-width:1000px){
+            .about{
+                background-size: 100%;
+                padding: 100px 40px;
+            }
+            .inner-section{
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width:600px){
+            .about{
+                padding: 0;
+            }
+            .inner-section{
+                padding: 60px;
+            }
+            .skills button{
+                font-size: 19px;
+                padding: 5px;
+                width: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="about">
+        <div class="inner-section">
+            <h1>About Ratna Nidhi Charitable Trust,</h1>
+            <p class="text">
+                Ratna Nidhi Charitable Trust, is a registered charity that was established over 24 years ago by Mr Mahendra Mehta. It was set up in order to tackle the problems of poverty in Mumbai, especially amongst young children. From its humble origins as a family institution it has grown rapidly, and now its projects cover a wide range of activities located in both India and other developing countries, including Afghanistan, Sudan, Kenya and Burundi. \
+                Ratna Nidhi Charitable Trust is committed to the welfare of people from the most underprivileged strata of society without distinction of caste, creed or color.
+            </p>
+           
+        </div>
+    </div>
+    
+</body>
+</html>
